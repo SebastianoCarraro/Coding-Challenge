@@ -1,0 +1,71 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+body > div{
+  background-color: rgba(0, 0, 0, 0.5);
+  position: relative;
+  top: 80px;
+  width: 70%;
+  margin: auto;
+  border-radius: 20px;
+}
+header{
+  width: 50%;
+  margin: auto;
+  color: lime;
+  position: relative;
+  top: 15%;
+  padding-top: 70px;
+  text-align: center;
+}
+img{
+  width: 40%;
+  height: 10%;
+}
+nav{
+  width: 90%;
+  height: 40px;
+  margin: auto;
+  background-color: lime;
+}
+nav input{
+  position: relative;
+  top: 10px;
+  left: 37%;
+}
+main{
+  width: 90%;
+  margin: auto;
+  color: white;
+  padding-bottom: 90px;
+}
+h2{
+  display: inline-block;
+}
+.bar1, .bar2, .bar3{
+  height: 25px;
+  border-radius: 5px;
+}
+.bar1{
+  background-color: red;
+  width: 15%;
+}
+.bar2{
+  background-color: lime;
+  width: 60%;
+}
+.bar3{
+  background-color: orange;
+  width: 30%;
+}
+section{
+  margin-top: 10px;
+}
+section div{
+  margin-top: 5px
+}
